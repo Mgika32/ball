@@ -18,8 +18,6 @@ class Ball:
 		self.deltax = 5*math.cos(self.angle)
 		self.deltay = 5*math.sin(self.angle)
 		self.pos= (self.x, self.y)
-	def click_on_ball(pos_ball : tuple[str, str], pos_click: tuple[str, str]):
-		return
 
 score = 0
 		
